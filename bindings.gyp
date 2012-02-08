@@ -8,7 +8,8 @@
                             'modules',
                             'deps' ],
       'libraries' : ['-lxml2'],
-      'cflags' : ['-O3', '-msse2', '-ffast-math'],
+      'cflags' : ['-O3', '-msse2', '-ffast-math', '-fexceptions'],
+      'cflags_cc' : ['-O3', '-msse2', '-ffast-math', '-fexceptions'],
       'linkflags' : ['LINKFLAGS']         
     }
   ]
